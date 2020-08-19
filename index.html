@@ -1,0 +1,474 @@
+
+
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Eva Schafroth | Wheel of Wellness</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<link href="styles.css" rel="stylesheet" type="text/css">
+<link rel='stylesheet' id='osom-main-css-css'  href='https://www.evaschafroth.com/wp-content/themes/osom/assets/css/style.css' type='text/css' media='all' />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-55180989-2"></script>
+
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+
+
+  gtag('config', 'UA-55180989-2');
+
+</script>
+
+</head>
+
+<body>
+
+  <div class="row">
+
+    <div class="col-md-12">
+
+        <div class="text-center">
+
+            <a href="https://www.evaschafroth.com"><img src="img/ES-Wheel-of-Wellness.jpg" alt="Wheel Of Wellness" class="img-fluid" /></a>
+
+          </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="row">
+
+    <div class="col-md-2"></div>
+
+    <div class="col-md-8"><p>Welcome to your free holistic wellness assessment! This exercise is called the “Wheel of Wellness” and I have adapted it from the wheel of life - a popular coaching exercise. Here’s how it works:</p></div>
+
+    <div class="col-md-2"></div>
+
+  </div>
+
+
+
+  <div class="row">
+
+    <div class="col-md-2"></div>
+
+    <div class="col-md-8">
+
+        <h2>Step 1</h2>
+
+        <p>Rate yourself on a scale of 1 to 10 in each of the following 8 areas.</p>
+
+    </div>
+
+    <div class="col-md-2"></div>
+
+  </div>
+
+
+
+  <div class="row">
+
+    <div class="col-md-12">
+
+        <div class="areas">
+
+            <div class="area">
+
+              <h2>Food</h2>
+
+              <p>How would you rate your current diet? It’s not about how ‘good’ or ‘bad’ you are, but about how you feel!</p>
+
+              <div class="values">
+
+                <div class="value" onclick="setValue(0, 1);">1</div>
+
+                <div class="value" onclick="setValue(0, 2);">2</div>
+
+                <div class="value" onclick="setValue(0, 3);">3</div>
+
+                <div class="value" onclick="setValue(0, 4);">4</div>
+
+                <div class="value" onclick="setValue(0, 5);">5</div>
+
+                <div class="value" onclick="setValue(0, 6);">6</div>
+
+                <div class="value" onclick="setValue(0, 7);">7</div>
+
+                <div class="value" onclick="setValue(0, 8);">8</div>
+
+                <div class="value" onclick="setValue(0, 9);">9</div>
+
+                <div class="value" onclick="setValue(0, 10);">10</div>
+
+              </div>
+
+            </div>
+
+          
+
+            <div class="area" style="display: none;">
+
+              <h2>Movement</h2>
+
+              <p>This means not only exercise, but movement in general. If you commute on your bike, that counts. If your job is physically demanding, that counts too.</p>
+
+              <div class="values">
+
+                <div class="value" onclick="setValue(1, 1);">1</div>
+
+                <div class="value" onclick="setValue(1, 2);">2</div>
+
+                <div class="value" onclick="setValue(1, 3);">3</div>
+
+                <div class="value" onclick="setValue(1, 4);">4</div>
+
+                <div class="value" onclick="setValue(1, 5);">5</div>
+
+                <div class="value" onclick="setValue(1, 6);">6</div>
+
+                <div class="value" onclick="setValue(1, 7);">7</div>
+
+                <div class="value" onclick="setValue(1, 8);">8</div>
+
+                <div class="value" onclick="setValue(1, 9);">9</div>
+
+                <div class="value" onclick="setValue(1, 10);">10</div>
+
+              </div>
+
+            </div>
+
+          
+
+            <div class="area" style="display: none;">
+
+              <h2>Rest</h2>
+
+              <p>Do you sleep well? Do you find it easy to relax and de-stress? Can you find rest, or are you always on?</p>
+
+              <div class="values">
+
+                <div class="value" onclick="setValue(2, 1);">1</div>
+
+                <div class="value" onclick="setValue(2, 2);">2</div>
+
+                <div class="value" onclick="setValue(2, 3);">3</div>
+
+                <div class="value" onclick="setValue(2, 4);">4</div>
+
+                <div class="value" onclick="setValue(2, 5);">5</div>
+
+                <div class="value" onclick="setValue(2, 6);">6</div>
+
+                <div class="value" onclick="setValue(2, 7);">7</div>
+
+                <div class="value" onclick="setValue(2, 8);">8</div>
+
+                <div class="value" onclick="setValue(2, 9);">9</div>
+
+                <div class="value" onclick="setValue(2, 10);">10</div>
+
+              </div>
+
+            </div>
+
+          
+
+            <div class="area" style="display: none;">
+
+              <h2>Growth</h2>
+
+              <p>This can apply to your career or other aspects of your life. The big question here: Are you learning and evolving?</p>
+
+              <div class="values">
+
+                <div class="value" onclick="setValue(3, 1);">1</div>
+
+                <div class="value" onclick="setValue(3, 2);">2</div>
+
+                <div class="value" onclick="setValue(3, 3);">3</div>
+
+                <div class="value" onclick="setValue(3, 4);">4</div>
+
+                <div class="value" onclick="setValue(3, 5);">5</div>
+
+                <div class="value" onclick="setValue(3, 6);">6</div>
+
+                <div class="value" onclick="setValue(3, 7);">7</div>
+
+                <div class="value" onclick="setValue(3, 8);">8</div>
+
+                <div class="value" onclick="setValue(3, 9);">9</div>
+
+                <div class="value" onclick="setValue(3, 10);">10</div>
+
+              </div>
+
+            </div>
+
+          
+
+            <div class="area" style="display: none;">
+
+              <h2>Relationships</h2>
+
+              <p>This includes significant other, family, friends, and community. Do you feel supported by your social network?</p>
+
+              <div class="values">
+
+                <div class="value" onclick="setValue(4, 1);">1</div>
+
+                <div class="value" onclick="setValue(4, 2);">2</div>
+
+                <div class="value" onclick="setValue(4, 3);">3</div>
+
+                <div class="value" onclick="setValue(4, 4);">4</div>
+
+                <div class="value" onclick="setValue(4, 5);">5</div>
+
+                <div class="value" onclick="setValue(4, 6);">6</div>
+
+                <div class="value" onclick="setValue(4, 7);">7</div>
+
+                <div class="value" onclick="setValue(4, 8);">8</div>
+
+                <div class="value" onclick="setValue(4, 9);">9</div>
+
+                <div class="value" onclick="setValue(4, 10);">10</div>
+
+              </div>
+
+            </div>
+
+          
+
+            <div class="area" style="display: none;">
+
+              <h2>Fulfillment</h2>
+
+              <p>Do you feel you have a sense of purpose in your life? </p>
+
+              <div class="values">
+
+                <div class="value" onclick="setValue(5, 1);">1</div>
+
+                <div class="value" onclick="setValue(5, 2);">2</div>
+
+                <div class="value" onclick="setValue(5, 3);">3</div>
+
+                <div class="value" onclick="setValue(5, 4);">4</div>
+
+                <div class="value" onclick="setValue(5, 5);">5</div>
+
+                <div class="value" onclick="setValue(5, 6);">6</div>
+
+                <div class="value" onclick="setValue(5, 7);">7</div>
+
+                <div class="value" onclick="setValue(5, 8);">8</div>
+
+                <div class="value" onclick="setValue(5, 9);">9</div>
+
+                <div class="value" onclick="setValue(5, 10);">10</div>
+
+              </div>
+
+            </div>
+
+          
+
+            <div class="area" style="display: none;">
+
+              <h2>Stability</h2>
+
+              <p>This includes financial stability as well as your living situation. Do you feel grounded and supported?</p>
+
+              <div class="values">
+
+                <div class="value" onclick="setValue(6, 1);">1</div>
+
+                <div class="value" onclick="setValue(6, 2);">2</div>
+
+                <div class="value" onclick="setValue(6, 3);">3</div>
+
+                <div class="value" onclick="setValue(6, 4);">4</div>
+
+                <div class="value" onclick="setValue(6, 5);">5</div>
+
+                <div class="value" onclick="setValue(6, 6);">6</div>
+
+                <div class="value" onclick="setValue(6, 7);">7</div>
+
+                <div class="value" onclick="setValue(6, 8);">8</div>
+
+                <div class="value" onclick="setValue(6, 9);">9</div>
+
+                <div class="value" onclick="setValue(6, 10);">10</div>
+
+              </div>
+
+            </div>
+
+          
+
+            <div class="area" style="display: none;">
+
+              <h2>Joy</h2>
+
+              <p>Do you do things that bring you joy, just for the fun of it? <br>This can include creative endeavours, time in nature, dancing, reading - whatever sparks your fancy, as long as it makes you feel good.</p>
+
+              <div class="values">
+
+                <div class="value" onclick="setValue(7, 1);">1</div>
+
+                <div class="value" onclick="setValue(7, 2);">2</div>
+
+                <div class="value" onclick="setValue(7, 3);">3</div>
+
+                <div class="value" onclick="setValue(7, 4);">4</div>
+
+                <div class="value" onclick="setValue(7, 5);">5</div>
+
+                <div class="value" onclick="setValue(7, 6);">6</div>
+
+                <div class="value" onclick="setValue(7, 7);">7</div>
+
+                <div class="value" onclick="setValue(7, 8);">8</div>
+
+                <div class="value" onclick="setValue(7, 9);">9</div>
+
+                <div class="value" onclick="setValue(7, 10);">10</div>
+
+              </div>
+
+            </div>
+
+            
+
+            <div class="area" style="display: none;">
+
+              <h2>All done!</h2>
+
+            </div>
+
+          </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="row">
+
+    <div class="col-md-12">
+
+        <div id="chartdiv"></div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="row">
+
+    <div class="col-md-2"></div>
+
+      <div class="col-md-8">
+
+        <div>
+
+            <h2>Step 2</h2>
+
+            <p>Take a look at your diagram and reflect:
+
+            <ul>
+
+                <li>How balanced does your diagram look? Are there areas that need attention?</li>
+
+                <li>If you had to pick one area you want to work on first, which one would that be?</li>
+
+                <li>What is one action you can take this week to improve in this area?</li>
+
+            </ul>
+
+            </p>
+
+            <p>Want more ideas and insights? Email me at hello[at]evaschafroth.com - send me a screenshot of your diagram and responses to above questions, and I’ll send you some more ideas!</p>
+
+        </div>
+
+        <div class="col-md-2"></div>
+
+      </div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <footer class="site-footer">
+        <nav aria-label="Footer Menu">
+        <ul id="menu-footer-menu" class="menu menu-hor"><li id="menu-item-2187" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2187"><a href="https://www.evaschafroth.com/lettering-hub/">Lettering Hub</a></li>
+        </ul>
+        </nav>
+
+        <nav aria-label="Footer Social Menu">
+        <ul id="menu-footer-social" class="menu menu-hor menu-icons"><li id="menu-item-1770" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1770"><a href="https://www.instagram.com/awesomeeves/"><i class="fab fa-instagram"></i></a></li>
+        <li id="menu-item-2232" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2232"><a href="https://www.facebook.com/evaswellnesshub/"><i class="fab fa-facebook-f"></i></a></li>
+        <li id="menu-item-2159" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2159"><a href="https://www.linkedin.com/in/evaschafroth/"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>						 </nav>
+
+        <p>© 2018 Eva Schafroth 
+        &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;
+        Holistic Wellness Coach based in Rosebery, Sydney
+        &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;
+        Contact me ☞ hello@evaschafroth.com</p>
+    </footer>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+
+
+<!--<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>-->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script src="amcharts.js"></script>
+
+<script src="https://www.amcharts.com/lib/3/radar.js"></script>
+
+<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+
+<script src="custom.js"></script>
+
+</body>
+
+</html>
